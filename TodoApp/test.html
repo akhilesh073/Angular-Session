@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        #toggle-all,
+        #todo-list li .toggle {
+            background: none;
+        }
+        #todo-list li .toggle {
+            height: 40px;
+        }
+        #toggle-all {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+            -webkit-appearance: none;
+            appearance: none;
+        }
+    }
+    
+    
+    
+    #toggle-all:before {
+        content: '❯';
+        font-size: 22px;
+        color: #e6e6e6;
+        padding: 10px 27px 10px 27px;
+    }
+    </style>
+</head>
+
+<body>
+    <input id="toggle-all" type="checkbox">
+</body>
+
+</html>
