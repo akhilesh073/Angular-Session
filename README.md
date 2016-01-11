@@ -20,11 +20,11 @@ This is a complete session on Angular Js.
 
 #####Angular Architecture:
 
-•	Creating Boundaries using ng-app
-•	Data Binding – one way binding and two way binding
-•	Repeating elements using ng-repeat
-•	Angular Expressions and NG-Class
-•	Angular Controllers
+*	Creating Boundaries using ng-app
+*	Data Binding – one way binding and two way binding
+*	Repeating elements using ng-repeat
+*	Angular Expressions and NG-Class
+*	Angular Controllers
 *	Adapting to model changes
 
 #####Angular.js Building Blocks:
